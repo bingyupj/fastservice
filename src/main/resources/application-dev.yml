@@ -1,0 +1,13 @@
+server:
+  port: 9001
+
+spring:
+  mvc:
+    servlet:
+      path: /api
+  devtools:
+    restart:
+      trigger-file: hotfix.md
+
+
+
